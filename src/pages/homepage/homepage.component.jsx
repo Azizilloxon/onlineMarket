@@ -1,9 +1,10 @@
 import React from 'react';
+import './homepage.styles.scss';
 
 
 const Homepage=()=> {
     return(
-        <div className="homepage">
+    <div className="homepage">
 
       <div className="directory-menu">
         <div className="menu-item">
@@ -60,6 +61,8 @@ const Homepage=()=> {
             </span>
           </div>
         </div>
+
+        
         
       </div>
     </div>
