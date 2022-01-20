@@ -1,0 +1,21 @@
+.sign-in {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    title {
+        margin: 10px 0;
+    }
+    .buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
